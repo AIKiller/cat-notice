@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "vtu-collapse": "/miniprogram_npm/vtuweapp/collapse/group/vtu-collapse",
+    "vtu-collapse-item": "/miniprogram_npm/vtuweapp/collapse/item/vtu-collapse-item"
+  }
+}

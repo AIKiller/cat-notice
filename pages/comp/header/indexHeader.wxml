@@ -1,0 +1,4 @@
+<!--pages/comp/header/indexHeader.wxml-->
+<view class="container"><!--header 目前废弃-->
+  <vtu-navbar title="肥猫闹钟" show-nav-btn="{{false}}" title-align="left"></vtu-navbar>
+</view>

@@ -1,0 +1,163 @@
+<!--pages/comp/indexAdd/indexAdd.wxml-->
+<text>pages/comp/indexAdd/indexAdd.wxml</text>
+<vtu-cell title="icon-share" value="显示内容" icon="iconfont icon-share" icon-size="200%"  border></vtu-cell>
+
+<vtu-cell title="icon-add" value="显示内容" icon="iconfont icon-add" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-move" value="显示内容" icon="iconfont icon-move" icon-size="300%"  border></vtu-cell>
+
+
+<vtu-cell title="t-icon-shalou" value="显示内容" icon="t-icon t-icon-shalou" icon-style="width:64px;height:64px"  border></vtu-cell>
+
+
+<vtu-cell title="icon-fangxingxuanzhongfill" value="显示内容" icon="iconfont icon-fangxingxuanzhongfill" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-fangxingxuanzhong" value="显示内容" icon="iconfont icon-fangxingxuanzhong" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-guanbi1" value="显示内容" icon="iconfont icon-guanbi1" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-xuanze1" value="显示内容" icon="iconfont icon-xuanze1" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-yuanxingweixuanzhong" value="显示内容" icon="iconfont icon-yuanxingweixuanzhong" icon-size="200%"  border></vtu-cell>
+ 
+<vtu-cell title="icon-yuanxingxuanzhongfill" value="显示内容" icon="iconfont icon-yuanxingxuanzhongfill" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-yuanxingxuanzhong" value="显示内容" icon="iconfont icon-yuanxingxuanzhong" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-biaoxingfill" value="显示内容" icon="iconfont icon-biaoxingfill" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-biaoxing" value="显示内容" icon="iconfont icon-biaoxing" icon-size="200%"  border></vtu-cell>
+
+<vtu-cell title="icon-xihuanfill" value="显示内容" icon="iconfont icon-xihuanfill" icon-size="200%"  border></vtu-cell>
+
+<vtu-cell title="icon-xihuan" value="显示内容" icon="iconfont icon-xihuan" icon-size="200%"  border></vtu-cell>
+
+<vtu-cell title="icon-jinggao-copy" value="显示内容" icon="iconfont icon-jinggao-copy" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-duihao" value="显示内容" icon="iconfont icon-duihao" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-yijian" value="显示内容" icon="iconfont icon-yijian" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-biaodanzujian" value="显示内容" icon="iconfont icon-biaodanzujian" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-zanshangshouyi" value="显示内容" icon="iconfont icon-zanshangshouyi" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-guanyu1" value="显示内容" icon="iconfont icon-guanyu1" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-kong" value="显示内容" icon="iconfont icon-kong" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-xingbie" value="显示内容" icon="iconfont icon-xingbie" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-dianhua" value="显示内容" icon="iconfont icon-dianhua" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-qingkong" value="显示内容" icon="iconfont icon-qingkong" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-xuanze-danxuan" value="显示内容" icon="iconfont icon-danxuan" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-tubiaozhizuomoban" value="显示内容" icon="iconfont icon-tubiaozhizuomoban" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-sousuo" value="显示内容" icon="iconfont icon-sousuo" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-liulan" value="显示内容" icon="iconfont icon-liulan" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-daohang" value="显示内容" icon="iconfont icon-daohang" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-bianji" value="显示内容" icon="iconfont icon-bianji" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-x" value="显示内容" icon="iconfont icon-x" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-bianji1" value="显示内容" icon="iconfont icon-bianji1" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-jichu" value="显示内容" icon="iconfont icon-jichu" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-jiantouxia" value="显示内容" icon="iconfont icon-jiantouxia" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-Githeibai" value="显示内容" icon="iconfont icon-Githeibai" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-right-copy" value="显示内容" icon="iconfont icon-right-copy" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-left-copy" value="显示内容" icon="iconfont icon-left-copy" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-top-copy" value="显示内容" icon="iconfont icon-top-copy" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-picture-delet" value="显示内容" icon="iconfont icon-picture-delet" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-star" value="显示内容" icon="iconfont icon-star" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-dengdai" value="显示内容" icon="iconfont icon-dengdai" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-zhanshi" value="显示内容" icon="iconfont icon-zhanshi" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-shangchuan" value="显示内容" icon="iconfont icon-shangchuan" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-jiazai" value="显示内容" icon="iconfont icon-jiazai" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-tupian1" value="显示内容" icon="iconfont icon-tupian1" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-xuanze" value="显示内容" icon="iconfont icon-xuanze" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-kefu" value="显示内容" icon="iconfont icon-kefu" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-jiansuo" value="显示内容" icon="iconfont icon-jiansuo" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-fork" value="显示内容" icon="iconfont icon-fork" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-guanyu" value="显示内容" icon="iconfont icon-guanyu" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-xingbienvxianxing" value="显示内容" icon="iconfont icon-xingbienvxianxing" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-yemian-copy-copy" value="显示内容" icon="iconfont icon-yemian-copy-copy" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-icon-fankuizujian" value="显示内容" icon="iconfont icon-icon-fankuizujian" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-wode" value="显示内容" icon="iconfont icon-wode" icon-size="200%"  border></vtu-cell>
+
+
+<vtu-cell title="icon-jiahao" value="显示内容" icon="iconfont icon-jiahao" icon-size="200%"  border></vtu-cell>

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "vtu-navbar": "/miniprogram_npm/vtuweapp/navbar/vtu-navbar"
+  }
+}

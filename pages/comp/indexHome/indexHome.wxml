@@ -1,0 +1,18 @@
+<!--pages/comp/indexHome/indexHome.wxml-->
+<scroll-view scroll-y class="Swiper_Item_Scroll">
+  <view class="TopSpan">
+    <view class="TopSpan_Name">闹钟提示</view>
+    <view class="TopSpan_Desc">请检查下列每项的内容，并对完成的项目进行勾选</view>
+  </view>
+  <vtu-collapse color="#6c6c6c" gutter="15px">
+    <vtu-collapse-item title="已过期" icon="t-icon t-icon-jinggao">
+      <vtu-cell title="Button" value="按钮" border arrow bind:click="button"></vtu-cell>
+    </vtu-collapse-item>
+    <vtu-collapse-item title="正在进行中" icon="t-icon t-icon-shalou">
+      123
+    </vtu-collapse-item>
+    <vtu-collapse-item title="警告" icon="t-icon t-icon-fabu-">
+      43534
+    </vtu-collapse-item>
+  </vtu-collapse>
+</scroll-view>

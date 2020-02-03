@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/icon/iconEx"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundTextStyle": "dark",
+    "backgroundColorBottom": "#fff",
+    "backgroundColorTop": "#000"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wxacf7a4487b9d0a85",
+    "wx2c4364702b69af6b",
+    "wx2cd4fa4d2996e4ae",
+    "wx899e19c384327c6d",
+    "wxabee6c54c10ef7e0"
+  ],
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

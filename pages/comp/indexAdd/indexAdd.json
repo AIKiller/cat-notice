@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "vtu-cell": "/miniprogram_npm/vtuweapp/cell/item/vtu-cell"
+  }
+}

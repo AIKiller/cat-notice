@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "index-layout":"/pages/comp/indexLayout/indexLayout",
+    "index-home": "/pages/comp/indexHome/indexHome",
+    "index-add": "/pages/comp/indexAdd/indexAdd",
+    "index-profile": "/pages/comp/indexProfile/indexProfile"
+  }
+}

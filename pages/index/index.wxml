@@ -1,0 +1,7 @@
+<index-layout>
+  <view slot="home">
+    <index-home></index-home>
+  </view>
+  <view slot="add"><index-add></index-add></view>
+  <view slot="my"><index-profile></index-profile></view>
+</index-layout>

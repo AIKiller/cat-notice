@@ -1,0 +1,12 @@
+<!--pages/comp/indexLayout/indexLayout.wxml-->
+<scroll-view>
+<vtu-navbar title="肥猫闹钟" bind:load="navBarLoad" bgColor="#3399CC"show-nav-btn="{{false}}" title-align="left"></vtu-navbar>
+<vtu-tabbar active-icon-color="orange" current="{{current}}" bind:change="change" custom-class="tabbar-content" mode="page" navbar-height="{{navBarHeight}}">
+    <vtu-tabbar-item label="今日提醒" src="/assets/image/calendar.png" name="home" bind:click="alert1" data-d="1"></vtu-tabbar-item>
+    <vtu-tabbar-item label="新建发布" src="/assets/image/push.png" large icon-font-size="36px" name="add" bind:click="alert1" data-d="2"></vtu-tabbar-item>
+    <vtu-tabbar-item label="个人中心" src="/assets/image/self.png" name="my" bind:click="alert1" data-d="3"></vtu-tabbar-item>
+    <view class="swiper_center" slot="home"><slot name="home"></slot></view>
+    <view class="a" slot="add"><slot name="add"></slot></view>
+    <view class="a" slot="my"><slot name="my"></slot></view>
+</vtu-tabbar>
+</scroll-view>
