@@ -8,7 +8,7 @@
 <vtu-cell title="icon-move" value="显示内容" icon="iconfont icon-move" icon-size="300%"  border></vtu-cell>
 
 
-<vtu-cell title="t-icon-shalou" value="显示内容" icon="t-icon t-icon-shalou" icon-style="width:64px;height:64px"  border></vtu-cell>
+<vtu-cell title="t-icon-shalou" value="显示内容" icon="t-icon t-icon-shalou" icon-color="red" icon-style="width:64px;height:64px"  border></vtu-cell>
 
 
 <vtu-cell title="icon-fangxingxuanzhongfill" value="显示内容" icon="iconfont icon-fangxingxuanzhongfill" icon-size="200%"  border></vtu-cell>

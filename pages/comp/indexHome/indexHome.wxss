@@ -1,4 +1,7 @@
 /* pages/comp/indexHome/indexHome.wxss */
+.checkboxLabel{
+  font-size: 20px;
+}
 .Swiper_Item_Scroll{
   height: 100%;
   width: 100%;

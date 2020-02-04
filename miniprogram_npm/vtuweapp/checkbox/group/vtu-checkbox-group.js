@@ -31,6 +31,10 @@ VtuComponent({
       type: String,
       value: "left"
     },
+    activeCheckboxLabel:{
+      type: String,
+      value: "none"
+    },
     activeColor: {
       type: String,
       value: null

@@ -6,7 +6,15 @@
   </view>
   <vtu-collapse color="#6c6c6c" gutter="15px">
     <vtu-collapse-item title="已过期" icon="t-icon t-icon-jinggao">
-      <vtu-cell title="Button" value="按钮" border arrow bind:click="button"></vtu-cell>
+      <vtu-checkbox-group model="{{value1}}" align="right" 
+      label-class="checkboxLabel"
+      checkbox-icon="" active-color="#C0C4CC" active-checkbox-label="line-through" active-checkbox-icon="iconfont icon-duihao" active-checkbox-color="#07c160" 
+bind:change="change">
+  <vtu-checkbox value="1" label="北京"></vtu-checkbox>
+  <vtu-checkbox value="2" label="上海"></vtu-checkbox>
+  <vtu-checkbox value="3" label="深圳"></vtu-checkbox>
+  <vtu-checkbox value="4" label="南京"></vtu-checkbox>
+</vtu-checkbox-group>
     </vtu-collapse-item>
     <vtu-collapse-item title="正在进行中" icon="t-icon t-icon-shalou">
       123

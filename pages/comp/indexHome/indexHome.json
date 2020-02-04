@@ -2,6 +2,8 @@
   "component": true,
   "usingComponents": {
     "vtu-collapse": "/miniprogram_npm/vtuweapp/collapse/group/vtu-collapse",
-    "vtu-collapse-item": "/miniprogram_npm/vtuweapp/collapse/item/vtu-collapse-item"
+    "vtu-collapse-item": "/miniprogram_npm/vtuweapp/collapse/item/vtu-collapse-item",
+    "vtu-checkbox": "/miniprogram_npm/vtuweapp/checkbox/checkbox/vtu-checkbox",
+    "vtu-checkbox-group": "/miniprogram_npm/vtuweapp/checkbox/group/vtu-checkbox-group"
   }
 }

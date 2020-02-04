@@ -11,7 +11,7 @@
     </block>
     <block wx:elif="{{align == 'right'}}">
       <view class="Vtu_CheckBoxGroup_CheckBox_Icon {{item.icon}} icon-class" wx:if="{{item.icon}}"></view>
-      <view class="Vtu_CheckBoxGroup_CheckBox_Label label-class">{{item.label}}</view>
+      <view class="Vtu_CheckBoxGroup_CheckBox_Label label-class" style="text-decoration: {{item.checked ? activeCheckboxLabel : checkboxLabel}};">{{item.label}}</view>
       <view class="Vtu_CheckBoxGroup_CheckBox_CheckBoxIcon checkbox-icon-class {{item.checked ? 'is-active ' + activeCheckboxIcon : checkboxIcon}}" style="color: {{item.checked ? activeCheckboxColor||activeColor : checkboxColor}};"></view>
     </block>
   </view>

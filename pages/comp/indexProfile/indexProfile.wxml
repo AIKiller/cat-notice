@@ -1,13 +1,9 @@
 <view class="SwitchBody">
+  <view class="box-flex box-row row-main-center userAvatar">
+    <vtu-avatar circle size="large"></vtu-avatar>
+  </view> 
   <vtu-panel v-class="panel" content-class="contentClass">
-    <vtu-layout-row class="MyTop">
-      <vtu-layout-col span="2">
-        <vtu-avatar circle size="default"></vtu-avatar>
-      </vtu-layout-col>
-      <vtu-layout-col span="10">
-        <vtu-cell title="登录/注册" arrow></vtu-cell>
-      </vtu-layout-col>
-    </vtu-layout-row>
+    <vtu-cell icon="t-icon t-icon-Customermanagement" title="登录/注册" icon-style="width:32px;height:32px;" arrow></vtu-cell>
   </vtu-panel>
   <vtu-cell-group>
     <vtu-cell title="GitHub" icon="iconfont icon-Githeibai" icon-color="#386d61" border arrow bind:click="$wx_copyText" data-text="https://github.com/jisida/VtuWeapp"></vtu-cell>
