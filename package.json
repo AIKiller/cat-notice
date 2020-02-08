@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "@vant/weapp": "^1.0.4",
     "dayjs": "^1.8.16",
     "vtuweapp": "^1.0.9"
   },

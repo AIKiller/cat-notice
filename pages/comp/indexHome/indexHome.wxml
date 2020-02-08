@@ -4,17 +4,89 @@
     <view class="TopSpan_Name">闹钟提示</view>
     <view class="TopSpan_Desc">请检查下列每项的内容，并对完成的项目进行勾选</view>
   </view>
-  <vtu-collapse color="#6c6c6c" gutter="15px">
+  <van-collapse value="{{ activeNames }}" bind:change="onChange" custom-class="homeVanCollapse">
+    <van-collapse-item name="1" custom-class="homeVanCollapseItem" content-class="homeVanCollapseItemContent">
+      <view slot="title" class="box-flex box-row row-cross-center">
+        <view class="t-icon t-icon-jinggao"></view>
+        <view class="">已过期</view>
+      </view>
+      <van-panel custom-class="vanCollapsePanel">
+        <view slot="header" class="box-flex box-column">
+          <view class="box-flex box-row vanPanelContentHeader">
+            <view class="col-4">8:00</view>
+            <view class="col-2">每天</view>
+          </view>
+          <view class="box-flex box-row vanPanelContent">
+            <view class="col-3 item">
+              <view class="item-name">法芙娜</view>
+              <view class="item-detail">1.0片</view>
+            </view>
+            <view class="col-3 time">还有11小时11分钟</view>
+          </view>
+          <view class="box-flex box-row vanPanelContent">
+            <view class="col-3 item">
+              <view class="item-name">999感冒灵</view>
+              <view class="item-detail">1.0片</view>
+            </view>
+            <view class="col-3 time">还有11小时11分钟</view>
+          </view>
+        </view>
+      </van-panel>
+      <van-panel custom-class="vanCollapsePanel">
+        <view slot="header" class="box-flex box-column">
+          <view class="box-flex box-row vanPanelContentHeader">
+            <view class="col-4">16:00</view>
+            <view class="col-2">每周</view>
+          </view>
+          <view class="box-flex box-row vanPanelContent">
+            <view class="col-3 item">
+              <view class="item-name">头孢</view>
+              <view class="item-detail">1.2克</view>
+            </view>
+            <view class="col-3 time">还有11小时11分钟</view>
+          </view>
+          <view class="box-flex box-row vanPanelContent">
+            <view class="col-3 item">
+              <view class="item-name">螺旋霉素片</view>
+              <view class="item-detail">1.0片</view>
+            </view>
+            <view class="col-3 time">还有11小时11分钟</view>
+          </view>
+          <view class="box-flex box-row vanPanelContent">
+            <view class="col-3 item">
+              <view class="item-name">板蓝根</view>
+              <view class="item-detail">2.0包</view>
+            </view>
+            <view class="col-3 time">还有11小时11分钟</view>
+          </view>
+        </view>
+      </van-panel>
+    </van-collapse-item>
+    <van-collapse-item name="2" custom-class="homeVanCollapseItem">
+      <view slot="title" class="box-flex box-row row-cross-center">
+        <view class="t-icon t-icon-shalou"></view>
+        <view class="">正在进行中</view>
+      </view>
+      提供多样店铺模板，快速搭建网上商城
+    </van-collapse-item>
+  </van-collapse>
+  <!-- <vtu-collapse color="#6c6c6c" gutter="15px">
     <vtu-collapse-item title="已过期" icon="t-icon t-icon-jinggao">
-      <vtu-checkbox-group model="{{value1}}" align="right" 
-      label-class="checkboxLabel"
-      checkbox-icon="" active-color="#C0C4CC" active-checkbox-label="line-through" active-checkbox-icon="iconfont icon-duihao" active-checkbox-color="#07c160" 
-bind:change="change">
-  <vtu-checkbox value="1" label="北京"></vtu-checkbox>
-  <vtu-checkbox value="2" label="上海"></vtu-checkbox>
-  <vtu-checkbox value="3" label="深圳"></vtu-checkbox>
-  <vtu-checkbox value="4" label="南京"></vtu-checkbox>
-</vtu-checkbox-group>
+      <vtu-panel use-footer-slot="true" round>
+        <vtu-cell slot="header" title="普通信息" value="状态" valueColor="#f44" border round></vtu-cell>
+        <view>
+          <vtu-checkbox-group model="{{value1}}" align="left" label-class="checkboxLabel" checkbox-icon="" active-color="#C0C4CC" active-checkbox-label="line-through" v  active-checkbox-icon="iconfont icon-duihao" active-checkbox-color="#07c160" bind:change="change">
+            <vtu-checkbox value="1" label="北京"></vtu-checkbox>
+            <vtu-checkbox value="2" label="上海"></vtu-checkbox>
+            <vtu-checkbox value="3" label="深圳"></vtu-checkbox>
+            <vtu-checkbox value="4" label="南京"></vtu-checkbox>
+          </vtu-checkbox-group>
+        </view>
+        <view slot="footer" class="footBtn">
+          <vtu-btn type="primary" size="small" inline-block="true">确定</vtu-btn>
+          <vtu-btn size="small" inline-block="true">取消</vtu-btn>
+        </view>
+      </vtu-panel>
     </vtu-collapse-item>
     <vtu-collapse-item title="正在进行中" icon="t-icon t-icon-shalou">
       123
@@ -22,5 +94,5 @@ bind:change="change">
     <vtu-collapse-item title="警告" icon="t-icon t-icon-fabu-">
       43534
     </vtu-collapse-item>
-  </vtu-collapse>
+  </vtu-collapse> -->
 </scroll-view>

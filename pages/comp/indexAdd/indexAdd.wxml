@@ -1,9 +1,9 @@
 <!--pages/comp/indexAdd/indexAdd.wxml-->
 <text>pages/comp/indexAdd/indexAdd.wxml</text>
-<vtu-cell title="icon-share" value="显示内容" icon="iconfont icon-share" icon-size="200%"  border></vtu-cell>
+<vtu-cell title="icon-share" value="显示内容" icon="cuIcon-favor lg text-gray" icon-size="200%"  border></vtu-cell>
 
 <vtu-cell title="icon-add" value="显示内容" icon="iconfont icon-add" icon-size="200%"  border></vtu-cell>
-
+<text class="cuIcon-favor lg text-gray"></text>
 
 <vtu-cell title="icon-move" value="显示内容" icon="iconfont icon-move" icon-size="300%"  border></vtu-cell>
 

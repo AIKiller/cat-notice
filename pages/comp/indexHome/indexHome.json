@@ -4,6 +4,14 @@
     "vtu-collapse": "/miniprogram_npm/vtuweapp/collapse/group/vtu-collapse",
     "vtu-collapse-item": "/miniprogram_npm/vtuweapp/collapse/item/vtu-collapse-item",
     "vtu-checkbox": "/miniprogram_npm/vtuweapp/checkbox/checkbox/vtu-checkbox",
-    "vtu-checkbox-group": "/miniprogram_npm/vtuweapp/checkbox/group/vtu-checkbox-group"
+    "vtu-checkbox-group": "/miniprogram_npm/vtuweapp/checkbox/group/vtu-checkbox-group",
+    "vtu-panel": "/miniprogram_npm/vtuweapp/panel/vtu-panel",
+    "vtu-cell": "/miniprogram_npm/vtuweapp/cell/item/vtu-cell",
+    "vtu-btn": "/miniprogram_npm/vtuweapp/button/vtu-btn",
+    "van-collapse": "/miniprogram_npm/@vant/weapp/collapse/index",
+    "van-collapse-item": "/miniprogram_npm/@vant/weapp/collapse-item/index",
+    "van-icon": "/miniprogram_npm/@vant/weapp/icon/index",
+    "van-panel": "/miniprogram_npm/@vant/weapp/panel/index"
+
   }
 }
